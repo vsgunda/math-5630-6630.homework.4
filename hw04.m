@@ -8,7 +8,7 @@ classdef hw04
         function y = p1(data, eval)
             % Implement the divided difference method to interpolate the data points, then evaluate the polynomial at the given point.
             % :param data: a matrix of size n x 2, where the first column is the x values and the second column is the y values
-            % :param eval: a vector of x values at which to evaluate the polynomial
+            % :param eval: a column vector of x values at which to evaluate the polynomial
             % :return: a vector of y values corresponding to the evaluation points
 
             n = size(data, 1);
